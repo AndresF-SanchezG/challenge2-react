@@ -16,7 +16,7 @@ Fulfill the below user stories and get all of the tests to pass. Use whichever l
 # Solution Challenge
 
 - Live Site URL: [Codepen](https://codepen.io/Andr-s-Fernando-Sanchez-Galarza/pen/XWxwKEg)
-- 
+  
 # Author
 
 - Author - [@AndresF-SanchezG](https://github.com/AndresF-SanchezG)
