@@ -14,7 +14,7 @@ Fulfill the below user stories and get all of the tests to pass. Use whichever l
 - User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
 
 # Solution Challenge
-
+In this challenge I tried to get as close as possible to your solution:
 - Live Site URL: [Codepen](https://codepen.io/Andr-s-Fernando-Sanchez-Galarza/pen/XWxwKEg)
   
 # Author
