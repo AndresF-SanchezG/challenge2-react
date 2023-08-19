@@ -1,17 +1,38 @@
 # Build a Markdown Previewer
 
-Build an app that is functionally similar to this:  https://markdown-previewer.freecodecamp.rocks/.
+This JavaScript code is an implementation of a basic web application using the React library. The application consists of two main areas: an editing area (text editor) and a preview area. The main purpose is to allow users to input text formatted with Markdown-style in the editor, and then display a rendered preview of the formatted text in the preview area.
 
-Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
+Below, I provide you with a detailed explanation of the code.
 
-# Targets
+![Captura](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/89030151-1f8f-44ae-ac18-c617c65bfb76)
+In these lines, the necessary libraries are imported: React, ReactDOM (for rendering the application to the DOM), and marked (a library for converting Markdown text into renderable HTML).
 
-- User Story #1: I can see a textarea element with a corresponding id="editor".
-- User Story #2: I can see an element with a corresponding id="preview".
-- User Story #3: When I enter text into the #editor element, the #preview element is updated as I type to display the content of the textarea.
-- User Story #4: When I enter GitHub flavored markdown into the #editor element, the text is rendered as HTML in the #preview element as I type (HINT: You don't need to parse Markdown          yourself 
-- User Story #5: When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a   heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
-- User Story #6: When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
+Clase MyForm:
+![Captura1](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/6a1ff16b-c082-4d52-bd67-7db755eebbc1)
+A class named MyForm is defined, which extends React.Component, indicating that this class represents a React component.
+
+Constructor:
+![Captura3](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/501c75b0-371c-42be-863c-ae0798747493)
+In the constructor, the component's state is initialized. The state contains a field called textarea which holds an example of Markdown text. The handleChange function is also bound to the current component.
+
+handleChange:
+![Captura4](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/d191a124-819a-44cf-bf90-bb020d87991f)
+handleChange is a function that updates the textarea state with the content of the editing textarea when it changes.
+
+Rendering Method:
+![Captura5](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/12785af1-b89c-4d1d-9f9d-ea8b29cae05c)
+In the render method, the user interface structure is returned. There are two main sections:
+
+Editor: A textarea element that displays the current content of the textarea state and updates when changes occur.
+
+Preview: A div element with the rendered content of the textarea state using the dangerouslySetInnerHTML function. The marked function converts Markdown text to HTML and is rendered within this element.
+
+Initial Rendering:
+Finally, the MyForm component is rendered into the DOM element with the ID 'root'. This is what makes the application appear on the web page.
+![Captura5](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/b33434fb-a9f4-46f1-b348-db29831d5281)
+
+In summary, this code implements a basic web application that allows users to input and edit Markdown-formatted text and see a real-time rendered preview.
+
 
 # Solution Challenge
 In this challenge I tried to get as close as possible to your solution:
