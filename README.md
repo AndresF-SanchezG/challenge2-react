@@ -27,6 +27,7 @@ handleChange:
 
 handleChange is a function that updates the textarea state with the content of the editing textarea when it changes.
 
+
 Rendering Method:
 ![Captura5](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/12785af1-b89c-4d1d-9f9d-ea8b29cae05c)
 
