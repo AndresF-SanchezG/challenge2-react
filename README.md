@@ -6,25 +6,30 @@ Below, I provide you with a detailed explanation of the code.
 
 ![Captura](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/89030151-1f8f-44ae-ac18-c617c65bfb76)
 
+
 In these lines, the necessary libraries are imported: React, ReactDOM (for rendering the application to the DOM), and marked (a library for converting Markdown text into renderable HTML).
 
 Clase MyForm:
 ![Captura1](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/6a1ff16b-c082-4d52-bd67-7db755eebbc1)
+
 
 A class named MyForm is defined, which extends React.Component, indicating that this class represents a React component.
 
 Constructor:
 ![Captura3](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/501c75b0-371c-42be-863c-ae0798747493)
 
+
 In the constructor, the component's state is initialized. The state contains a field called textarea which holds an example of Markdown text. The handleChange function is also bound to the current component.
 
 handleChange:
 ![Captura4](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/d191a124-819a-44cf-bf90-bb020d87991f)
 
+
 handleChange is a function that updates the textarea state with the content of the editing textarea when it changes.
 
 Rendering Method:
 ![Captura5](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/12785af1-b89c-4d1d-9f9d-ea8b29cae05c)
+
 
 In the render method, the user interface structure is returned. There are two main sections:
 
@@ -34,6 +39,7 @@ Preview: A div element with the rendered content of the textarea state using the
 
 Initial Rendering:
 Finally, the MyForm component is rendered into the DOM element with the ID 'root'. This is what makes the application appear on the web page.
+
 
 ![Captura5](https://github.com/AndresF-SanchezG/challenge2-react/assets/113924667/b33434fb-a9f4-46f1-b348-db29831d5281)
 
